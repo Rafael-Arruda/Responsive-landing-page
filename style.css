@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 10vw;
+}
+.logo h1 {
+    letter-spacing: 0.6px;
+    font-size: 1.6rem;
+    color: #335eea;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.nav-list li{
+    color: #506690;
+}
+.nav-list li:hover {
+    cursor: pointer;
+    color: #335eea;
+}
