@@ -41,6 +41,10 @@ header {
     border-bottom: 2px solid #2b50c7;
 }
 
+.nav-button {
+    display: none;
+}
+
 main {
     width: 100%;
     height: 90vh;
@@ -88,4 +92,28 @@ main {
 .btn-doc:hover {
     cursor: pointer;
     background-color: rgb(151, 209, 243);
+}
+
+@media(max-width: 900px){
+    .nav-list {
+        display: none;
+    }
+    .nav-button {
+        height: 100%;
+        padding: 14px 0;
+        margin-right: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .nav-button div {
+        width: 35px;
+        height: 4px;
+        background-color: #335eea;
+        border-radius: 2px;
+    }
+    .image {
+        display: none;
+    }
 }
